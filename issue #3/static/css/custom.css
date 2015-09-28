@@ -1,0 +1,21 @@
+.container{
+	display: table;
+}
+
+.container .column{
+	display: table-cell;
+	width:33.3333%;
+	border: 1px solid #CCCCCC;
+	border-left-width: 0px;
+}
+
+.container .column.column-1{
+	border-left-width: 1px;
+}
+
+.container .column .content{
+	padding: 10px;
+	border-left-width: 0;
+	height: 100%;
+}
+
