@@ -26,3 +26,7 @@ a {
   text-decoration: none;
   outline: none;
 }
+
+div.container{
+  overflow: hidden;
+}

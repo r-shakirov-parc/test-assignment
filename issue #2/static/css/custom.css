@@ -1,0 +1,52 @@
+div.line{
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+div.line .cell{
+	float: left;
+	overflow: hidden;
+	width: 25%;
+}
+
+div.line .cell .cell-padding{
+	border: solid #C1C1C1; 
+	border-width: 1px;
+	padding: 10px;
+	min-height: 35px;
+	margin: 0 10px;
+}
+
+div.line .cell .cell-padding.cell-1{
+	height: 100px;
+}
+
+div.line .cell .cell-padding.cell-2{
+	height: 40px;
+	margin: 30px 10px;
+}
+
+div.line .cell .cell-padding.cell-3{
+	height: 60px;
+	margin: 20px 10px;
+}
+
+div.line .cell .cell-padding.cell-4{
+	height: 50px;
+	margin: 20px 10px;
+}
+
+div.line .cell .cell-padding.cell-5{
+	height: 40px;
+	margin: 25px 10px;
+}
+
+div.line .cell .cell-padding.cell-6{
+	height: 90px;
+}
+
+div.line .cell .cell-padding.cell-7{
+	height: 80px;
+	margin: 5px 10px;
+}
+
