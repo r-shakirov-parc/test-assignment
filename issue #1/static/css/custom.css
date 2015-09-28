@@ -1,0 +1,44 @@
+div.container{
+	overflow: hidden;
+}
+
+div.line{
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+div.line .cell{
+	float: left;
+	overflow: hidden;
+}
+
+div.line .cell .cell-padding{
+	border: solid #C1C1C1; 
+	border-width: 1px 1px 1px 0;
+	padding: 0 10px;
+	min-height: 35px;
+	line-height: 35px;
+}
+
+div.line .cell .cell-padding.cell-first{
+	border-width: 1px;
+}
+
+div.line .cell-3{
+	width: 33.3333333%;
+}
+
+div.line .cell-4{
+	width: 25%;
+}
+
+div.line .cell-5{
+	width: 20%;
+}
+div.line .cell-5.cell-5-2{
+	width: 30%;
+}
+div.line .cell-5.cell-5-5{
+	width: 10%;
+}
+
