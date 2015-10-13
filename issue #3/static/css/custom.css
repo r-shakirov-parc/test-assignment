@@ -14,8 +14,34 @@
 }
 
 .container .column .content{
-	padding: 10px;
 	border-left-width: 0;
 	height: 100%;
 }
 
+.container .column .content .content-inner{
+	margin: 10px;
+	overflow: hidden;
+}
+
+.container .column .content .content-inner:after{
+	float: left;
+	width: 0;
+	white-space: nowrap;
+	content: 
+	"..................................................."
+	"..................................................."
+	"...................................................";
+}
+
+.container .column .content span.text{
+	background-color: white;
+	padding-right: 0.5em;
+}
+
+.container .column .content span.price{
+	float: right;
+	background-color: white;
+	padding-left: 0.5em;
+	position: relative;
+	z-index: 1;
+}
