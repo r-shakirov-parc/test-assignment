@@ -1,3 +1,20 @@
 .b-button {
-	
+  background: #A0B348;
+  background-image: linear-gradient(to bottom, #A0B348, #748C00);
+  border-radius: 100px;
+  text-shadow: 0px -1px 0px #6B7B22;
+  color: #ffffff;
+  padding: 6px 38px 6px 38px;
+  border: 0;
+  position: relative;
+  box-shadow: 
+  	0 0 0 1px #7F9900,
+  	0 0 0 2px #566600,
+  	0 0 0 5px #E2E4DE,
+  	0 0 0 6px #AEAEAE;
+
+  font-family: Arial;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 10px;
 }

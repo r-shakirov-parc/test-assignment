@@ -1,0 +1,25 @@
+.b-task-result .popup{
+	border: solid 1px grey;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	background-color: white;
+	position: absolute;
+	z-index: 1001;
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -50px;
+	color: black;
+	text-shadow: none;
+}
+
+
+.b-task-result .text{
+	position: relative;
+	color: transparent;
+	text-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
